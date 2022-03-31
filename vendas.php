@@ -47,8 +47,8 @@ class Vendas
 $venda = new Vendas(
   '',  //data
   '',  //produto
-  50,         //quantidade
-  0,    //valor total
+  50,  //quantidade
+  0,   //valor total
 );
 
 echo $venda->itemVendido('Computador');
